@@ -45,7 +45,7 @@ In MagicMirror/config/config.js
   config: {
     phones: ["XX:XX:XX:XX:XX:XX", "YY:YY:YY:YY:YY:YY"], // List of phone MAC addresses to detect
     turnOnCommand: "echo 'on 0' | cec-client -s -d 1", // Command to turn on the mirror
-			  turnOffCommand: "echo 'standby 0' | cec-client -s -d 1", // Command to turn off the mirror
+		turnOffCommand: "echo 'standby 0' | cec-client -s -d 1", // Command to turn off the mirror
     startignoreHour: 23, // Begin ignore period at 23:00, this will prevent the Command to turn off/on the mirror specific hours
     endignoreHour: 6,   // End ignore period at 6:00
     checkInterval: 5000, // Check for phone presence every 5 seconds
